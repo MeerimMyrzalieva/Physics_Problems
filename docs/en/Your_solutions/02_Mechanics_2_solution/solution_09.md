@@ -1,4 +1,4 @@
-# 📘 Vertical Throw with Drag — Solution
+ Vertical Throw with Drag — Solution
 
 ## 🔹 Given
 
