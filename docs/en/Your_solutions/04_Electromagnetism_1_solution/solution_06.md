@@ -1,115 +1,145 @@
-# Section 4: Electromagnetism I  
-
-## 6. Field at a point from a system of charges
+# Section 4 — Electromagnetism I  
+## 6. Field at a point from a system of charges  
 
 Two point charges are given:
 
-+q at point (-a, 0)  
-+2q at point (a, 0)  
+$$
++q \text{ at point } (-a,0), \qquad +2q \text{ at point } (a,0)
+$$
 
 ---
 
-### Step 1: General formula
+## Necessary formulas
 
-Electric field of a point charge:
+### Electric field of a point charge
 
-E = k q r / |r|^3
-
----
-
-### Step 2: Position vectors
-
-From charge +q:
-
-r1 = (x + a, y)
-
-From charge +2q:
-
-r2 = (x - a, y)
+$$
+\vec{E} = k q \frac{\vec{r}}{|\vec{r}|^3}
+$$
 
 ---
 
-### Step 3: Electric fields
+## (a) General expression $\vec{E}(x,y)$
 
-E1 = kq (x + a, y) / [(x + a)^2 + y^2]^(3/2)
+### Position vectors
 
-E2 = 2kq (x - a, y) / [(x - a)^2 + y^2]^(3/2)
-
----
-
-### Step 4: Total field
-
-E(x, y) = E1 + E2
-
-Components:
-
-Ex = kq (x + a)/[(x + a)^2 + y^2]^(3/2) 
-   + 2kq (x - a)/[(x - a)^2 + y^2]^(3/2)
-
-Ey = kq y/[(x + a)^2 + y^2]^(3/2) 
-   + 2kq y/[(x - a)^2 + y^2]^(3/2)
+$$
+\vec{r}_1 = (x+a,\,y), \qquad \vec{r}_2 = (x-a,\,y)
+$$
 
 ---
 
-### Step 5: Field at (0, y)
+### Electric fields
 
-Ex = -kqa / (a^2 + y^2)^(3/2)
+$$
+\vec{E}_1 = kq \frac{(x+a,\,y)}{\left[(x+a)^2 + y^2\right]^{3/2}}
+$$
 
-Ey = 3kqy / (a^2 + y^2)^(3/2)
-
-E(0, y) = ( -kqa/(a^2+y^2)^(3/2) , 3kqy/(a^2+y^2)^(3/2) )
-
----
-
-### Step 6: Field at (x, 0)
-
-Ex = kq (x+a)/|x+a|^3 + 2kq (x-a)/|x-a|^3
-
-Ey = 0
+$$
+\vec{E}_2 = 2kq \frac{(x-a,\,y)}{\left[(x-a)^2 + y^2\right]^{3/2}}
+$$
 
 ---
 
-### Step 7: Conditions
+### Total field
 
-Ey = 0  →  y = 0  
-
-Ex = 0  → solve:
-kq (x+a)/|x+a|^3 + 2kq (x-a)/|x-a|^3 = 0  
-
-E = 0 → only on x-axis between charges
+$$
+\vec{E}(x,y) = \vec{E}_1 + \vec{E}_2
+$$
 
 ---
 
-### Step 8: Numerical calculation
+### 5) Components
 
-Given:
+Ex = kq * (x + a)/[(x + a)^2 + y^2]^(3/2)
+   + 2kq * (x - a)/[(x - a)^2 + y^2]^(3/2)
 
-a = 0.2 m  
-y = 0.3 m  
-q = 2 × 10^-6 C  
-k = 9 × 10^9  
+Ey = kq * y/[(x + a)^2 + y^2]^(3/2)
+   + 2kq * y/[(x - a)^2 + y^2]^(3/2)
 
-a^2 + y^2 = 0.13  
-(0.13)^(3/2) ≈ 0.0469  
-
-Ex = -7.7 × 10^4 N/C  
-Ey = 3.45 × 10^5 N/C  
-
-E ≈ ( -7.7×10^4 , 3.45×10^5 ) N/C  
 
 ---
 
-### Step 9: Limit y >> a
+## (b) Field at $(0,y)$
 
-(a^2 + y^2)^(3/2) ≈ y^3  
+$$
+E_x = -\frac{kqa}{(a^2+y^2)^{3/2}}, \qquad
+E_y = \frac{3kqy}{(a^2+y^2)^{3/2}}
+$$
 
-Ex ≈ -kqa / y^3  (small)  
-
-Ey ≈ 3kq / y^2  
+$$
+\vec{E}(0,y) =
+\left(
+-\frac{kqa}{(a^2+y^2)^{3/2}},\;
+\frac{3kqy}{(a^2+y^2)^{3/2}}
+\right)
+$$
 
 ---
 
-### Final interpretation
+## (c) Field at $(x,0)$
 
-At large distance → system behaves like a single charge 3q  
-Field is mainly along y-axis
+$$
+E_x = kq \frac{x+a}{|x+a|^3} + 2kq \frac{x-a}{|x-a|^3}, \qquad E_y = 0
+$$
+
+---
+
+## (d) Conditions
+
+$$
+E_y = 0 \Rightarrow y = 0
+$$
+
+$$
+E_x = 0 \Rightarrow 
+kq \frac{x+a}{|x+a|^3} + 2kq \frac{x-a}{|x-a|^3} = 0
+$$
+
+$$
+\vec{E} = 0 \text{ only on the x-axis between the charges}
+$$
+
+---
+
+## (e) Numerical calculation
+
+$$
+a = 0.2\,\text{m}, \quad y = 0.3\,\text{m}, \quad q = 2\times10^{-6}\,\text{C}
+$$
+
+$$
+a^2 + y^2 = 0.13, \qquad (0.13)^{3/2} \approx 0.0469
+$$
+
+$$
+E_x \approx -7.7 \times 10^4 \,\text{N/C}, \qquad
+E_y \approx 3.45 \times 10^5 \,\text{N/C}
+$$
+
+$$
+\vec{E} \approx (-7.7\times10^4,\; 3.45\times10^5)\,\text{N/C}
+$$
+
+---
+
+## (f) Limit $y \gg a$
+
+$$
+(a^2 + y^2)^{3/2} \approx y^3
+$$
+
+$$
+E_x \approx -\frac{kqa}{y^3}, \qquad
+E_y \approx \frac{3kq}{y^2}
+$$
+
+---
+
+## Final interpretation
+
+$$
+\vec{E} \approx \frac{3kq}{y^2}
+$$
+
+The system behaves like a single charge $3q$.
