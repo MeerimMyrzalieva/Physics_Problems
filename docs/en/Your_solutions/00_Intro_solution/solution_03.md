@@ -58,3 +58,4 @@ $$
 - Halving both masses reduces the force by a factor of $1/4$.  
 - Doubling the distance reduces the force by an additional factor of $1/4$.  
 - Overall, the force becomes $1/16$ of its original value.
+- <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/53a91e6b-5a09-4991-a7a2-efe385d29f90" />
