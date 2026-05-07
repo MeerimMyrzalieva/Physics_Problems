@@ -98,11 +98,8 @@ B_z(x,t) = 3.3 × 10⁻⁷ sin(10^7 x − 3 × 10^15 t)
 - Direction: +x  
 - Wavelength: λ ≈ 6.28 × 10⁻⁷ m  
 - Angular frequency: ω = 3 × 10^15 rad/s  
-- Magnetic field:  
-  B_z(x,t) = 3.3 × 10⁻⁷ sin(10^7 x − 3 × 10^15 t)
+- Magnetic fiel
   
-  <img width="615" height="353" alt="image" src="https://github.com/user-attachments/assets/42cc7276-703f-4a66-96c7-de203af8e809" />
-  <img width="1268" height="860" alt="image" src="https://github.com/user-attachments/assets/5806a6e6-c148-4dec-8aff-77146441e271" />
- <img width="1229" height="860" alt="image" src="https://github.com/user-attachments/assets/ca2367f3-448e-4ef5-bb5d-0711e1f53f9e" />
+  
 
 
